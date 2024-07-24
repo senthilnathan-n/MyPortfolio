@@ -56,7 +56,6 @@ section
     margin-left: 4rem;
     font-weight: 700;
 }
-
 .navbar a:hover,
 .navbar a.active{
     color: var(--text-color);
