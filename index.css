@@ -263,6 +263,72 @@ border-right: 3px solid rgb(255, 255, 255);
 .tech-skills{
     display: flex;
 }
+.project-container{
+    display: grid;
+   grid-row: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+
+.project-action{
+    display: flex;
+    align-items: center;
+   margin-top: 3rem;
+}
+.project-action{
+    border-radius: ;
+}
+.project img{
+    height: 25rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+.project h4{
+    margin-top: 20px;
+    font-size: 25px;
+    color: var(--main-color);
+}
+
+.project1 p{
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.project1 img{
+    height: 25rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+.project1 h4{
+    font-size: 25px;
+    color: var(--main-color);
+    margin-top: 20px;
+}
+
+.project p{
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.project2 img{
+    height: 25rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+.project2 h4{
+    margin-top: 20px;
+    font-size: 25px;
+    color: var(--main-color);
+}
+
+.project2 p{
+    font-size: 15px;
+    color: var(--text-color);
+}
 
 @media screen and(min-width:300) and (max-width:576) 
     {

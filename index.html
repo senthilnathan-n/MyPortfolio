@@ -26,8 +26,8 @@
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="portfolio">Projects</a>
-        <a href="contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <section class="home" id="home">
@@ -81,7 +81,7 @@
         
         </p>
         <a href="#skills" class="btn">Skills</a>
-        <a href="#" class="btn">Projects</a>
+        <a href="#projects" class="btn">Projects</a>
         
       </div>
      </div>
@@ -279,6 +279,51 @@
 
 </div>
     </section>
+
+    <section class="projects" id="projects">
+      <h2 style="font-size: 40px; text-align: center;margin-bottom: 30px;">
+        <span style="color: aqua;">My</span>
+        Projects
+      </h2>
+      <div class="project-container">
+        <div class="project">
+          <img src="vita.png" alt="">
+          <h4>Vitaminds</h4>
+          <p>Vitaminds is a React.js-based web app focused on diet and nutrition. It features a responsive interface, a calorie calculator, and a diverse recipe collection to help users manage their dietary needs effectively. </p>
+          <div class="project-action">
+            <a href="https://github.com/senthilnathan-n/Vitaminds"        
+            
+            target="_blank"
+            class="btn">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project1">
+          <img src="pro1.png" alt="">
+          <h4>CloudArena</h4>
+          <p>CloudArena is an innovative cloud-based platform designed for gaming enthusiasts. It offers a seamless and secure login authentication system powered by Firebase, ensuring users' data and access are protected.</p>
+          <div class="project-action">
+            <a href="https://github.com/senthilnathan-n/CloudGaming"  target="_blank" class="btn">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project2">
+          <img src="farmbounty.png" alt="">
+          <h4>FarmBounty</h4>
+          <p>At Farm Bounty, you can buy fresh vegetables, meat, and milk directly from farmers, ensuring the highest quality and supporting local agriculture. Enjoy farm-fresh produce delivered straight to your doorstep.</p>
+          <div class="project-action">
+            <a href="https://github.com/senthilnathan-n/farmbounty" target="_blank" class="btn">GitHub</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-conatiner">
+
+      </div>
+    </section>
     
     
     
@@ -299,7 +344,10 @@
 
       ScrollReveal().reveal('.social-media i',{delay:650,origin:'top',interval:300})
 
-      ScrollReveal().reveal('.skills-box ',{delay:650,origin:'right'})
+      ScrollReveal().reveal('.skills-box ',{delay:650,origin:'left'})
+      ScrollReveal().reveal('.project',{delay:650,origin:'bottom'})
+      ScrollReveal().reveal('.project1',{delay:650,origin:'top'})
+      ScrollReveal().reveal('.project2',{delay:650,origin:'bottom'})
     </script>
    
 
