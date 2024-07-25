@@ -13,14 +13,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
     <link rel="stylesheet" href="index.css" />
     <title>Senthilnathan</title>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   </head>
   <body>
+    <div class="side-container">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h2>Senthilnathan N</h2>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <script src="index.js"></script>
+      </div>
+
+    </div>
+    <span class="openbtn" onclick="openNav()">&#9776; </span>
     <header class="header">
-      <a href="#" class="logo">SenthilNathan N</a>
+      <a href="#home" class="logo">SenthilNathan N</a>
       <i class="fa-solid fa-bars" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -463,7 +476,7 @@
 
     <script>
       ScrollReveal({
-        reset: true,
+        reset: false,
         distance: "180px",
         duration: 2000,
         delay: 200,
@@ -481,7 +494,9 @@
       });
 
       ScrollReveal().reveal(".skills-box ", { delay: 650, origin: "left" });
+  
       ScrollReveal().reveal(".project", { delay: 650, origin: "bottom" });
+      ScrollReveal().reveal(".projects", { delay: 650, origin: "bottom" });
       ScrollReveal().reveal(".project1", { delay: 650, origin: "top" });
       ScrollReveal().reveal(".project2", { delay: 650, origin: "bottom" });
       ScrollReveal().reveal(".contact-container", { delay: 650, origin: "left" });
