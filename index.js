@@ -22,13 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
         let isDeleting = false;
         const typewriterElement = document.getElementById(elementId);
 
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
         
         function type() {
             if (isDeleting) {

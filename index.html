@@ -18,6 +18,8 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   </head>
   <body>
+
+
     <div class="side-container">
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -32,6 +34,9 @@
 
     </div>
     <span class="openbtn" onclick="openNav()">&#9776; </span>
+
+
+
     <header class="header">
       <a href="#home" class="logo">SenthilNathan N</a>
       <i class="fa-solid fa-bars" id="menu-icon"></i>
@@ -476,7 +481,7 @@
 
     <script>
       ScrollReveal({
-        reset: false,
+        reset: true,
         distance: "180px",
         duration: 2000,
         delay: 200,
@@ -488,6 +493,7 @@
       ScrollReveal().reveal(".about-content", { delay: 650, origin: "right" });
 
       ScrollReveal().reveal(".social-media i", {
+        
         delay: 650,
         origin: "top",
         interval: 300,
