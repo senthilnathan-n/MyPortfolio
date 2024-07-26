@@ -456,7 +456,7 @@ form .input-box {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 300px) and (max-width: 850px) {
   .sidenav {
     height: 50%;
     width: 0;
@@ -903,9 +903,9 @@ form .input-box {
     box-shadow: 0 0 1rem var(--main-color);
   }
 }
-@media screen and (min-width: 700px) and (max-width: 1000px) {
+@media screen and (min-width: 850px) and (max-width: 1000px) {
   .about-container {
-    width: 100rem;
+    width: 80rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -914,7 +914,7 @@ form .input-box {
     background: var(--snd-bf-color);
   }
   .about-img img {
-    width: 45vw;
+    width: 35vw;
   }
   .about-container b {
     color: var(--main-color);
@@ -937,14 +937,14 @@ form .input-box {
     margin-bottom: 2rem;
   }
   .heading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .about-content h2 {
     text-align: left;
     line-height: 1;
   }
   .about-content p {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     margin: 0.5rem 0 1rem;
   }
   
