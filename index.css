@@ -67,6 +67,7 @@ section {
 .home {
   display: flex;
   justify-content: center;
+ 
   align-items: center;
 }
 .home-content h3 {
@@ -105,6 +106,7 @@ section {
 }
 .home-img img {
   width: 25vw;
+ 
   border-radius: 200px;
   animation: floatImage 4s ease-in-out infinite;
 }
@@ -605,7 +607,7 @@ form .input-box {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    width: 40rem;
+    width: 50rem;
     height: 60rem;
   }
   .about-img img {

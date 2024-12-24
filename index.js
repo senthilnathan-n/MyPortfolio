@@ -8,7 +8,7 @@ function closeNav() {
 }
 document.addEventListener('DOMContentLoaded', function() {
     
-    const words = ['<Developer/>', '#Coder', 'Designer ;)', 'Engineer!'];
+    const words = ['<Developer/>', '#Coder', 'Engineer!','Tech Enthusiast;)'];
     const words2 = ['Developer', 'Coder', 'Designer ', 'Engineer'];
     const typeSpeed = 200;
     const deleteSpeed = 100;
