@@ -106,7 +106,6 @@ section {
 }
 .home-img img {
   width: 35vw;
- height: 35vw
   border-radius: 150px;
   animation: floatImage 4s ease-in-out infinite;
 }
@@ -561,11 +560,7 @@ form .input-box {
     font-weight: 700;
     line-height: 0.9;
   }
-  .home-img img {
-    width: 65vw;
-    border-radius: 150px;
-    animation: floatImage 4s ease-in-out infinite;
-  }
+
   .social-media a {
     display: inline-flex;
     justify-content: center;
