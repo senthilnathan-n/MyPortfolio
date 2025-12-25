@@ -563,8 +563,8 @@ form .input-box {
   }
   .home-img img {
     width: 65vw;
-
-    border-radius: 200px;
+  
+    border-radius: 50px;
     animation: floatImage 4s ease-in-out infinite;
   }
   .social-media a {
